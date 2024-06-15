@@ -513,6 +513,16 @@ export interface Footer {
   createdAt?: string | null
 }
 
+export interface HeaderLink {
+  href: string;
+  text: string;
+}
+
+export interface Header {
+  logoUrl: string;
+  links: HeaderLink[];
+}
+
 declare module 'payload' {
   export interface GeneratedTypes extends Config {}
 }

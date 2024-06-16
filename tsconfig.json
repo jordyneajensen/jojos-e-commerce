@@ -30,7 +30,14 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts"
+    ".next/types/**/*.ts",
+    "src/**/*",
+    "index.d.ts",
+    "**/*.test.ts", // Include TypeScript test files
+    "**/*.spec.ts", // Include TypeScript spec files
+    "config/**/*.ts", // Include TypeScript configuration files
+    "generated/**/*.ts", // Include generated TypeScript files
+    "typings/**/*.d.ts" // Include custom type definition files
   ],
   "exclude": [
     "node_modules"

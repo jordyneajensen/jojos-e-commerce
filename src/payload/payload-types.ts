@@ -521,6 +521,13 @@ export interface HeaderLink {
 export interface Header {
   logoUrl: string;
   links: HeaderLink[];
+
+}
+
+export interface Config {
+  setting1: string;
+  setting2: number;
+  // Add other settings as needed
 }
 
 declare module 'payload' {
